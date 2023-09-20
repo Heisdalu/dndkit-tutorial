@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  border: 1px solid black;
+}
+
+.okay {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+.head {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.card {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  display: grid;
+  place-items: center;
+}
+
+.yes {
+  opacity: 0.5;
+}
